@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7e313313"
+        android:gravity="top|center_horizontal"
+        android:padding="10dp">
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            app:arrowDirection="right"
+            app:arrowHeight="8dp"
+            app:arrowPosition="17dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            app:arrowDirection="left"
+            app:arrowHeight="8dp"
+            app:arrowPosition="5dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            app:arrowDirection="bottom"
+            app:arrowHeight="8dp"
+            app:arrowPosition="10dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:padding="5dp"
+            app:arrowDirection="bottom"
+            app:arrowHeight="8dp"
+            app:arrowPosition="52dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </sing.BubbleLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7e313313"
+        android:gravity="bottom|center_horizontal"
+        android:padding="10dp">
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            app:arrowDirection="right"
+            app:arrowHeight="8dp"
+            app:arrowPosition="5dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            app:arrowDirection="left"
+            app:arrowHeight="8dp"
+            app:arrowPosition="17dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            app:arrowDirection="top"
+            app:arrowHeight="8dp"
+            app:arrowPosition="52dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+        </sing.BubbleLayout>
+
+        <sing.BubbleLayout
+            android:layout_width="70dp"
+            android:layout_height="38dp"
+            android:padding="5dp"
+            app:arrowDirection="top"
+            app:arrowHeight="8dp"
+            app:arrowPosition="10dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@android:color/holo_blue_light"
+            app:cornersRadius="6dp"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bubble"
+                android:textColor="@android:color/holo_red_dark" />
+
+        </sing.BubbleLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#313131" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+</LinearLayout>

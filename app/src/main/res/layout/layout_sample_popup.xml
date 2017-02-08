@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sing.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    app:arrowDirection="left"
+    app:arrowHeight="12dp"
+    app:arrowWidth="8dp"
+    app:bubbleColor="@color/colorAccent"
+    app:cornersRadius="2dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />
+</sing.BubbleLayout>
